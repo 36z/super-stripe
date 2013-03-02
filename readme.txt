@@ -10,7 +10,7 @@ A cloud-backed plugin that lets you securely accept Credit Card payments on your
 
 == Description ==
 
-[Super Stipe](http://superstripeapp.com "Super Stripe Credit Card Processing for WordPress") is perfect for people who want to process credit cards but don't want to go through the hassle of installing an ssl certificate.
+[Super Stripe](http://superstripeapp.com "Super Stripe Credit Card Processing for WordPress") is perfect for people who want to process credit cards but don't want to go through the hassle of installing an ssl certificate.
 
 Super Stripe is great for selling digital goods, running promotions or accepting payments for services.
 
