@@ -6,7 +6,7 @@ Requires at least: 3.5.1
 Tested up to: 3.5.1
 Stable tag: 1.1.0
 
-A cloud-backed plugin that lets you securely accept Credit Card payments on your site using Stripe without install an SSL certificate on your site.
+A cloud-backed plugin that lets you securely accept Credit Card payments on your site using Stripe without needing to install an SSL certificate.
 
 == Description ==
 
