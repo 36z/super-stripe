@@ -38,7 +38,7 @@ Upgrading to [MemberPress](http://www.memberpress.com "MemberPress") will enable
 3. Sell & protect access to your content and digital downloads
 4. Create and manage payment subscriptions
 
-= How Simple Stripe Works =
+= How Super Stripe Works =
 
 We’ve built a secure, robust, cloud-based payment system (superstripeapp.com) that our WordPress plugin uses to process payments with Stripe.
 
