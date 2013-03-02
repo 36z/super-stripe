@@ -1,7 +1,7 @@
 === Super Stripe ===
 Contributors: supercleanse
 Donate link: http://superstripeapp.com
-Tags: charge, chargly, charity, donation, donations, form, gravatar, money, pay, payment, paypal, recent, recurly, stripe, transaction, transfer, shortcode, authorize.net, credit cards, forms, online payment, payment, payments, download, downloads, page, pages, post, posts, host, credit card, credit cards, ssl, pci, cloud, service, memberpress, membership, content, protection
+Tags: charge, charity, donation, donations, form, money, pay, payment, paypal, stripe, transaction, shortcode, authorize.net, credit cards, forms, payments, downloads, page, pages, post, posts, ssl, pci, cloud, service, memberpress, membership, content, protection
 Requires at least: 3.5.1
 Tested up to: 3.5.1
 Stable tag: 1.1.1
