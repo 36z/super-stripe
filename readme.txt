@@ -1,7 +1,7 @@
 === Super Stripe ===
 Contributors: supercleanse
 Donate link: http://superstripeapp.com
-Tags: charge, charity, donation, donations, form, money, pay, payment, paypal, stripe, transaction, shortcode, authorize.net, credit cards, forms, payments, downloads, page, pages, post, posts, ssl, pci, cloud, service, memberpress, membership, content, protection
+Tags: charge, charity, donation, donations, form, money, pay, payment, paypal, stripe, transaction, shortcode, authorize.net, credit cards, forms, payments, downloads, page, pages, post, posts, ssl, pci, cloud, service, memberpress, membership, content, protection, affiliate program, affiliate royale, affiliate, affiliates
 Requires at least: 3.5.1
 Tested up to: 3.5.1
 Stable tag: 1.1.1
@@ -10,7 +10,7 @@ A cloud-backed plugin that lets you securely accept Credit Card payments on your
 
 == Description ==
 
-[Super Stripe](http://superstripeapp.com "Super Stripe Credit Card Processing for WordPress") is perfect for people who want to process credit cards but don't want to go through the hassle of getting a dedicated IP address or installing an ssl certificate.
+[Super Stripe](http://superstripeapp.com "Super Stripe Credit Card Processing for WordPress") is perfect for people who want to process credit cards but don't want to go through the hassle of getting a dedicated IP address or installing an SSL certificate.
 
 Super Stripe is great for selling digital goods, running promotions or accepting payments for services.
 
@@ -27,7 +27,7 @@ You can get more information about Super Stripe [here](http://superstripeapp.com
 
 = Upgrade to MemberPress =
 
-Super Stripe will let you charge credit cards very easily and reliably ... But if you want to do this and more you'll want to check out our commercial Membership plugin [MemberPress](http://www.memberpress.com "MemberPress").
+Super Stripe will let you charge credit cards very easily and reliably ... But if you want to do this and more (without the additional per-transaction fee) you'll want to check out our commercial Membership plugin [MemberPress](http://www.memberpress.com "MemberPress").
 
 [About](http://www.memberpress.com/about "About MemberPress") | [Tour](http://www.memberpress.com/tour "Take the MemberPress Tour") | [FAQ](http://www.memberpress.com/faq "MemberPress FAQ") | [Pricing](http://www.memberpress.com/plans/memberpress "MemberPress Pricing")
 
@@ -40,33 +40,43 @@ Upgrading to [MemberPress](http://www.memberpress.com "MemberPress") will enable
 
 = How Super Stripe Works =
 
-We’ve built a secure, robust, cloud-based payment system (superstripeapp.com) that our WordPress plugin uses to process payments with Stripe.
+We've built a secure, robust, cloud-based payment system (superstripeapp.com) that our WordPress plugin uses to process payments with Stripe.
 
-This is great news for you because you won’t ever have to worry about security or PCI compliance on your webserver … its ultra-simple to get setup … and you don’t even need to go through the hassle of buying an SSL certificate and configuring it on your website … it just works.
+This is great news for you because you won't ever have to worry about security or PCI compliance on your webserver.
+
+Super Stripe is ultra-simple to get setup ... it doesn't require your site to be hosted with a dedicated IP address or to have an SSL certificate installed.
 
 After your user fills out and Submits the Buy Now form they will be redirected to our secure servers to checkout. Once the checkout is complete (or the user cancels), the user will be redirected back to your site to a customizable thank you page.
 
 Super Stripe sends sale notifications to any number of email address you want (specified when creating the form) and sends a very customizable email receipt to the customer.
 
-= Affiliate Tracking =
-
-Super Stripe works seamlessly with our affiliate tracking plugin [Affiliate Royale] (http://www.affiliateroyale.com "Affiliate Royale") so you can easily track affiliate commissions when running transactions through it.
-
 = Pricing =
 
-We're committed to making this the easiest to use payment solution for WordPress based merchants so we’ve set it up so we only make money when you do–that’s why this plugin and cloud based service are free to use ... we just charge a 1.5% + 15¢ fee on top of each transaction.
+We're committed to making this the easiest to use payment solution for WordPress available so we've set it up so you'll only be charged for using this service when you make money.
 
-Stripe also assesses a 2.9% + $0.30 fee on each transaction.
+Using our secure servers with Stripe costs 4.4% + 45¢ per successful transaction.
 
-So the way this works is if you billed someone $20 then you’d actually collect $18.67 after fees — which Stripe will automatically deposit directly into your bank account.
+For example, if you successfully charge someone $20 then after fees you'll collect $18.67 — which Stripe will automatically deposit directly into your bank account.
+
+The fee above already includes Stripe's fee (2.9% + 30¢) -- we just add an additional 1.5% + 15¢ for the use of our secure servers -- which makes a grand total of 4.4% + 45¢ per successful transaction.
+
+= Does Super Stripe integrate with any Affiliate Program software? =
+
+Yes. Super Stripe works seamlessly with our affiliate tracking plugin [Affiliate Royale](http://www.affiliateroyale.com "Affiliate Royale") so you can easily track affiliate commissions when running transactions through it.
 
 = Is Super Stripe available to international merchants? =
 
-Stripe can charge credit cards from any place in the world but Stripe is currently only available to merchants in the United States and Canada — and since Super Stripe is fully dependent on Stripe, it too is limited to merchants living in the United States and Canada.
+Stripe is currently only available to merchants in the United States and Canada — and since Super Stripe is fully dependent on Stripe, it too is limited to merchants living in the United States and Canada.
+
+= How can I run test transactions through this system? =
+
+When you create a payment form with Super Stripe you can easily specify whether transactions created with it should be test or live transactions (using the livemode attribute). There are no fees (from Stripe or our servers) for running test transactions.
+
+We recommend setting up forms initially in test mode to get the payment flow working properly before charging real transactions. Once you're satisfied that the payment flow works for you then it's easy to set the form to live by changing the value of the livemode attribute from "false" to "true".
 
 == Installation ==
 
-All you’ll need to do to get this setup is
+All you'll need to do to get this setup is
 
 1. Register for a free account on superstripeapp.com
 2. Follow the instructions during registration to connect your Stripe account and get an API key
@@ -74,7 +84,7 @@ All you’ll need to do to get this setup is
 4. Enter the API key from your superstripeapp.com registration into the Super Stripe options page on your website
 5. Place a shortcode on a page on your site to place a buy now button on it
 
-That’s it!
+That's it!
 
 And you can use this on an unlimited number of sites after you have your API key.
 
