@@ -44,7 +44,29 @@ We’ve built a secure, robust, cloud-based payment system (superstripeapp.com) 
 
 This is great news for you because you won’t ever have to worry about security or PCI compliance on your webserver … its ultra-simple to get setup … and you don’t even need to go through the hassle of buying an SSL certificate and configuring it on your website … it just works.
 
-All you’ll need to do to get this setup is:
+After your user fills out and Submits the Buy Now form they will be redirected to our secure servers to checkout. Once the checkout is complete (or the user cancels), the user will be redirected back to your site to a customizable thank you page.
+
+Super Stripe sends sale notifications to any number of email address you want (specified when creating the form) and sends a very customizable email receipt to the customer.
+
+= Affiliate Tracking =
+
+Super Stripe works seamlessly with our affiliate tracking plugin [Affiliate Royale] (http://www.affiliateroyale.com "Affiliate Royale") so you can easily track affiliate commissions when running transactions through it.
+
+= Pricing =
+
+We're committed to making this the easiest to use payment solution for WordPress based merchants so we’ve set it up so we only make money when you do–that’s why this plugin and cloud based service are free to use ... we just charge a 1.5% + 15¢ fee on top of each transaction.
+
+Stripe also assesses a 2.9% + $0.30 fee on each transaction.
+
+So the way this works is if you billed someone $20 then you’d actually collect $18.67 after fees — which Stripe will automatically deposit directly into your bank account.
+
+= Is Super Stripe available to international merchants? =
+
+Stripe can charge credit cards from any place in the world but Stripe is currently only available to merchants in the United States and Canada — and since Super Stripe is fully dependent on Stripe, it too is limited to merchants living in the United States and Canada.
+
+== Installation ==
+
+All you’ll need to do to get this setup is
 
 1. Register for a free account on superstripeapp.com
 2. Follow the instructions during registration to connect your Stripe account and get an API key
@@ -56,22 +78,7 @@ That’s it!
 
 And you can use this on an unlimited number of sites after you have your API key.
 
-= Is this Free? =
-
-We are committed to making this the easiest to use payment solution for WordPress based merchants so we’ve set it up so we only make money when you do–that’s why this plugin and cloud based service are free … all we do is charge 1.5% + 15¢ fee on top of each transaction.
-
-Stripe also assesses a 2.9% + $0.30 fee on each transaction. So the way this works is if you billed someone $20 then you’d actually collect $18.67 after fees — which Stripe will automatically deposit directly into your bank account.
-
-= Is Super Stripe available to international merchants? =
-
-Stripe can charge credit cards from any place in the world but Stripe is currently only available to merchants in the United States and Canada — and since Super Stripe is fully dependent on Stripe, it too is limited to merchants living in the United States and Canada.
-
-
-== Installation ==
-
-1. Upload 'super-stripe.zip' to the '/wp-content/plugins/' directory
-2. Activate the plugin through the 'Plugins' menu in WordPress
-3. Follow the [Super Stripe Documentation](http://superstripeapp.com "Super Stripe Documentation") for instructions to get an API key and install it
+For more information [Read the Docs](http://superstripeapp.com/docs "Read the Docs").
 
 == Changelog ==
 
