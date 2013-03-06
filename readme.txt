@@ -4,7 +4,7 @@ Donate link: http://superstripeapp.com
 Tags: charge, charity, donation, donations, form, money, pay, payment, paypal, stripe, transaction, shortcode, authorize.net, credit cards, forms, payments, downloads, page, pages, post, posts, ssl, pci, cloud, service, memberpress, membership, content, protection, affiliate program, affiliate royale, affiliate, affiliates
 Requires at least: 3.5.1
 Tested up to: 3.5.1
-Stable tag: 1.1.1
+Stable tag: 1.1.2
 
 A cloud-backed plugin that lets you securely accept Credit Card payments on your site using Stripe without needing to install an SSL certificate.
 
@@ -92,18 +92,24 @@ For more information [Read the Docs](http://superstripeapp.com/docs "Read the Do
 
 == Changelog ==
 
-= 1.1.0 =
-* Added tinymce shortcode generator popup
+= 1.1.2 =
+* Added a video tutorial on how to add a super stripe buy now form to your website
 
 = 1.1.1 =
 * Fixed an issue with custom emails
 * Added a configuration warning message
 
+= 1.1.0 =
+* Added tinymce shortcode generator popup
+
 == Upgrade Notice ==
 
-= 1.1.0 =
-* Initial release on wordpress.org
+= 1.1.2 =
+* Only necessary to upgrade if you have questions on how to setup the buy now form shortcode
 
 = 1.1.1 =
 * Everyone should upgrade
+
+= 1.1.0 =
+* Initial release on wordpress.org
 
